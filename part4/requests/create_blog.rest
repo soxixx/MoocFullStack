@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer `not to show`
+
+{
+    "title": "Authorization testing",
+    "author": "SXC",
+    "url": "http://Authorization-make-up-url",
+    "likes": 0
+}
